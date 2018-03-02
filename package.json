@@ -1,0 +1,33 @@
+{
+  "name": "question-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "lodash": "^4.17.5",
+    "mysql2": "^1.5.2",
+    "nodemon": "^1.15.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "sequelize": "^4.34.1",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "test": "NODE_ENV='test' mocha --timeout 20000 -R spec --exit",
+    "server": "NODE_ENV='development' nodemon --inspect ./server/index.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "should": "^13.2.1"
+  }
+}

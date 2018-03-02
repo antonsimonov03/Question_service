@@ -1,0 +1,26 @@
+.answerPanel.panel {
+  max-width: 500px;
+  margin: 0 0 auto 0;
+}
+
+.answerForm__field {
+  max-width: 300px;
+}
+
+.answerForm__field label {
+  width: 100%;
+  font-size: 16px;
+}
+
+.answerForm__field input,
+.answerForm__field textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.answerForm__field {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}

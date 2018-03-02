@@ -1,0 +1,42 @@
+.questionList {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.loadingText {
+  text-align: center;
+}
+
+.questions.list-group {
+  margin-bottom: 20px;
+}
+
+.list-group-item.question {
+  padding: 0;
+  cursor: pointer;
+}
+
+.question.list-group-item:hover {
+  background: rgb(241, 241, 241);
+  transition: 1.5s background;
+}
+
+.list-group-item h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.list-group-item a {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 20px;
+  color: #3f3232;
+  text-decoration: none;
+}
+
+.list-group-item a:hover {
+  text-decoration: none;
+  color: initial;
+}

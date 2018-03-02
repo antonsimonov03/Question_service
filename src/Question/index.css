@@ -1,0 +1,22 @@
+.questionPage {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.panel {
+  max-width: 600px;
+  margin: 20px auto 20px 0;
+}
+
+.panel-heading p {
+  font-size: 18px;
+}
+
+.panel-heading h3,
+.panel-heading p {
+  word-wrap: break-word;
+}
+
+.list-group-item h4 {
+  font-weight: bold;
+}

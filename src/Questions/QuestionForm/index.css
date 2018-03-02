@@ -1,0 +1,21 @@
+.questionForm__field {
+  max-width: 300px;
+}
+
+.questionForm__field label {
+  width: 100%;
+  font-size: 16px;
+}
+
+.questionForm__field input,
+.questionForm__field textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.questionForm__field {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
